@@ -6,8 +6,8 @@ const App = () => {
   return (
     <>
     <Navbar/>
-    {/* <Cart/> */}
-    <main className="flex flex-col gap-16 relative">
+    <Cart/>
+    <main className="flex flex-col gap-16 relative bg-gray-800">
       <Hero heroapi={heroapi}/>
       <Sales endpoint={popularsales} ifExists/>
       <FlexContent endpoint={highlight} ifExists/>
