@@ -1,22 +1,25 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch  } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import {
   HeartIcon,
   MagnifyingGlassIcon,
   ShoppingBagIcon,
 } from "@heroicons/react/24/outline";
 import logo from "../assets/logo.png";
-import { setOpenCart } from "../app/CartSlice.js";
+import { selectTotalQTY, setOpenCart } from "../app/CartSlice.js";
 
 const Navbar = () => {
   const [navState, setNavState] = useState(false);
   const dispatch = useDispatch();
+  const totalQTY = useSelector(selectTotalQTY);
 
   const onCartToggle = () => {
-    dispatch(setOpenCart({
-      cartState: true
-    }))
-  }
+    dispatch(
+      setOpenCart({
+        cartState: true,
+      })
+    );
+  };
 
   const onNavScroll = () => {
     if (window.scrollY > 30) {
@@ -35,13 +38,10 @@ const Navbar = () => {
 
   return (
     <>
-      <header
-        className={
-          !navState
-            ? " absolute top-0 left-0 right-0 opacity-100 z-50 flex "
-            : "fixed top-0 left-0 right-0 h-[11vh] flex items-center justify-center opacity-100 z-[200] blur-effect-theme  "
-        }
-      >
+      <header className={
+        !navState ? 'absolute top-7 left-0 right-0 opacity-100 z-50' : 'fixed top-0 left-0 right-0 h-[14vh]  items-center justify-center opacity-100 z-[200] blur-effect-theme'
+        
+      }>
         <nav className="flex items-center justify-between pumba-container ">
           <div className="flex items-center">
             <img src={logo} alt="logo/img" className={`w-14 ${navState}`} />
@@ -49,7 +49,7 @@ const Navbar = () => {
           <ul className="flex items-center justify-center gap-2 ">
             <li className="grid items-center ">
               <MagnifyingGlassIcon
-                className={`icon-style ${
+                className={` text-slate-900 icon-style ${
                   navState && "text-slate-900 transition-all duration-300 "
                 }`}
               />
@@ -64,7 +64,7 @@ const Navbar = () => {
                 className="border-none outline-none active:scale-100 transition-all duration-300 relative"
               >
                 <ShoppingBagIcon
-                  className={`icon-style ${
+                  className={`text-slate-900 icon-style ${
                     navState && "text-slate-900 transition-all duration-300"
                   }`}
                 />
@@ -73,7 +73,7 @@ const Navbar = () => {
                     navState && "text-slate-900 transition-all duration-300"
                   }`}
                 >
-                  0
+                  {totalQTY}
                 </div>
               </button>
             </li>

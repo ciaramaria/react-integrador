@@ -42,15 +42,11 @@ import youtube from "../assets/youtube.png";
 import messenger from "../assets/messenger.svg";
 
 const heroapi = {
-  title: "Play With Electric Nike",
-  subtitle: "Adapt 2.0 Sneakers",
+  title: "Compra las nuevas pumas de Usain Bolt",
+  subtitle: "Runga 2.0 Sneakers",
   img: heroimg,
-  btntext: "Explore Product",
-//   videos: [
-//     { imgsrc: vcover1, clip: clip },
-//     { imgsrc: vcover2, clip: clip },
-//     { imgsrc: vcover3, clip: clip },
-//   ],
+  btntext: "Mas productos",
+
   sociallinks: [
     { icon: facebook },
     { icon: messenger },
@@ -65,7 +61,7 @@ const popularsales = {
   items: [
     {
       id: "0p0x1",
-      title: "Nike Addapt BB 2.0",
+      title: "Pumba fresh",
       text: "MEN Running Shoes",
       rating: "4.9",
       btn: "Buy Now",
@@ -76,7 +72,7 @@ const popularsales = {
     },
     {
       id: "0p0x2",
-      title: "Nike Martine Rose",
+      title: "Pumba Air Premium",
       text: "MEN Running Shoes",
       rating: "4.5",
       btn: "Buy Now",
@@ -87,7 +83,7 @@ const popularsales = {
     },
     {
       id: "0p0x3",
-      title: "Nike Smart Shoe 2.0",
+      title: "Pumba Multi Smart Shoe ",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -155,7 +151,7 @@ const topratesales = {
     },
     {
       id: "0M0x4",
-      title: "Nike Air Premium",
+      title: "Pumba Martine Rose",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -188,7 +184,7 @@ const topratesales = {
     },
     {
       id: "0M0x7",
-      title: "Nike Multi Smart Shoe",
+      title: "Pumba Smart Shoe 2.0",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -257,97 +253,97 @@ const topratesales = {
 
 
 const story = {
-  title: "Top Stories",
+  title: "Articulos destacados",
   news: [
     {
-      title: "Jayson Tatum Debuts",
-      text: "Jordan Brands signature model for the past few years, Jayson Tatum will be dawning the Air Jordan 37 this season before attaining potentially his first signature sneaker with Jumpman, which he rumored to be in the works recently via his Twitter.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/air-jordan-37-low.jpg?w=540&h=380&crop=1",
-      url: "https://sneakernews.com/2022/09/14/air-jordan-37-low/",
+      title: "Zapatillas infantiles RS-X 3D",
+      text: "Entra a una nueva dimensión con estas zapatillas que combinan todo tipo de detalles llamativos para generar un diseño único. A los niños modernos les encantará lucirlas por su estilo.",
+      img: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1536,h_1536/global/390829/01/sv01/fnd/ARG/fmt/png",
+      url: "https://ar.puma.com/zapatillas-infantiles-rs-x-3d-390829-01.html?color=10934",
       like: "3/5",
       time: "11 Mins",
-      by: "Jared Ebanks",
-      btn: "Read More"
+      by: "Black-Harbor Mist",
+      btn: "Leer mas"
     },
     {
-      title: "Bro’s Nike Zoom Freak 4",
-      text: "Arriving right time for the Fall, this upcoming take on the Zoom Freak 4 seemingly draws inspiration from Thanksgiving. Orange and brown, two staples of the holiday, are used throughout the upper, dressing the parts not bathed in shades of grey.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-zoom-freak-4-ironstone-orange-trance-cobblestone-sail-dj6149-003-2.jpg?w=540&h=380&crop=1",
+      title: "Gorra de visera plana SWxP",
+      text: "Muestra tu estilo con esta gorra de visera plana. Con una corona sin estructura, que crea un estilo ultrarrelajado, es un símbolo de modernidad y confianza. Además, es la mejor forma de destacar cualquier conjunto casual.",
+      img: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1536,h_1536/global/024383/01/fnd/ARG/fmt/png",
       time: "41 Mins",
       like: "5/5",
-      url: "https://sneakernews.com/2022/09/14/nike-zoom-freak-4-ironstone-orange-trance-cobblestone-sail-dj6149-003/",
-      by: "Michael Le",
-      btn: "Read More"
+      url: "https://ar.puma.com/gorra-de-visera-plana-swxp-relaxed-024383-01.html?_sgm_campaign=scn_a3e162ac02000&_sgm_source=138052&_sgm_action=click&color=127",
+      by: " Relaxed",
+      btn: "Leer mas"
     },
     {
-      title: "Nike Air Max Plus",
-      text: "The Nike Air Max Plus has enjoyed the reveal of several colorways these last few of months. And as we officially embark on the Fall season, an additional set have been added to the calendar, including this newly-revealed grey and orange colorway.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Max-Plus-FB3358-001-2.jpg?w=540&h=380&crop=1",
-      time: "2 Hours",
-      url: "https://sneakernews.com/2022/09/14/nike-air-max-plus-grey-orange-black-fb3358-001/",
-      like: "5/5",
-      by: "Michael Le",
-      btn: "Read More"
-    },
-    {
-      title: "Air Jordan Retro High OG",
-      text: "Air Jordan Retro High OG popular series of AJ1s with the popular color-blocking with the original Yellow Toe flavor. The colorway was revealed back PE by musician Zach Myers, nearly four years later, Jordan fanatics will finally get their shot a GR release.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/03/yellow-toe-jordan-1-release-date-2.jpg",
+      title: "Buzo con capucha para mujer",
+      text: "Este buzo con capucha Classics está confeccionado con una mezcla de algodón muy agradable, un talle cómodo levemente más amplio, un bolsillo estilo canguro profundo y puños acanalados.",
+      img: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1536,h_1536/global/538191/01/mod01/fnd/ARG/fmt/png",
       time: "7 Months",
-      url: "https://sneakernews.com/2022/03/09/air-jordan-1-retro-high-og-yellow-toe-555088-711/",
+      url: "https://ar.puma.com/buzo-con-capucha-para-mujer-classics-block-538191-01.html?_sgm_campaign=scn_a3e162ac02000&_sgm_source=136533&_sgm_action=click&color=127",
       like: "5/5",
-      by: "Sneaker News",
-      btn: "Read More"
+      by: "Classics Block",
+      btn: "Leer mas"
     },
     {
-      title: "Nike Air Zoom GT Cut 2",
-      text: "The Bred coloryway of Zoom GT Cut 2 will be first to release this Friday, For Nike Members Nation World Wide while Sabrina Ionescus colorway is set for an October 13th release date. In the meantime, enjoy official images of both colorways below.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-zoom-gt-cut-2-release-date.jpg?w=540&h=380&crop=1",
-      time: "1 Months",
-      url: "https://sneakernews.com/2022/09/13/nike-zoom-gt-cut-2-officially-unveiled/",
-      like: "3/5",
-      by: "Jared Ebanks",
-      btn: "Read More"
+      title: "Minibolso SWxP",
+      text: "Este bolso combina el legado deportivo de PUMA con el estilo urbano moderno a la vanguardia de la moda. Está repleto de bolsillos funcionales y correas para llevarlo cómodamente mientras estás en movimiento. Diseñado para facilitarte la vida diaria.",
+      img: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1536,h_1536/global/079663/01/fnd/ARG/fmt/png",
+      time: "2 Hours",
+      url: "https://ar.puma.com/minibolso-swxp-079663-01.html?_sgm_campaign=scn_a3e162ac02000&_sgm_source=136548&_sgm_action=click",
+      like: "5/5",
+      by: "Dope Dye",
+      btn: "Leer mas"
     },
     {
-      title: "Puma Announces Breanna",
-      text: "For the first time in over a decade, a signature basketball silhouette is being made for one of the WNBA’s best and brightest stars, Olympic Gold Medalist and Seattle Storm superstar Breanna Stewart. Puma Stewie 1 Quiet Fire will be available this Friday.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/puma-stewie-1-quiet-fire-breanna-stewart-release-date-lead.jpg?w=540&h=380&crop=1",
+      title: "Remera deportiva para hombre",
+      text: "Inspirada en el fútbol, pero hecha para cualquier deporte. Esta remera deportiva para hombre T7 está confeccionada con una increíble mezcla de algodón suave, llamativas inserciones con la franja T7 en las mangas y un estampado gráfico completo que la hacen única.",
+      img: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1536,h_1536/global/539626/77/mod01/fnd/ARG/fmt/png",
       time: "25 Days",
-      url: "https://sneakernews.com/2022/09/13/nike-zoom-gt-cut-2-officially-unveiled/",
+      url: "https://ar.puma.com/remera-deportiva-para-hombre-t7-539626-77.html?_sgm_campaign=scn_a3e162ac02000&_sgm_source=136561&_sgm_action=click&color=10927",
       like: "3/5",
-      by: "Jared Ebanks",
-      btn: "Read More"
+      by: " T7",
+      btn: "Leer mas"
     },
+      {
+        title: "Buzo con capucha para hombre",
+        text: "Mejora el nivel de tu vestuario casual. Este buzo con capucha es la nueva incorporación a la línea SWxP. Combina un corte clásico con detalles gráficos llamativos en el pecho y en las mangas para crear un estilo que te encantará usar.",
+        img: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1536,h_1536/global/538220/77/mod01/fnd/ARG/fmt/png",
+        time: "1 Months",
+        url: "https://ar.puma.com/buzo-con-capucha-para-hombre-swxp-538220-77.html?_sgm_campaign=scn_a3e162ac02000&_sgm_source=136697&_sgm_action=click&color=11062",
+        like: "3/5",
+        by: " SWxP",
+        btn: "Leer mas"
+      },
     {
-      title: "Nike Air Force Orange Color",
-      text: "From lace toggles to city-inspired makeovers, the Nike Air Force 1 has delivered a number of unique modifications. Here though, the brand is taking things down quite a few notches, opting for a simple colorway helmed primarily by black and Laser Orange.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Force-1-Black-Yellow-FB7162-081-8.jpg?w=540&h=380&crop=1",
-      url: "https://sneakernews.com/2022/09/09/nike-air-force-1-black-laser-orange-fb7162-081/",
+      title: "Campera deportiva para hombre",
+      text: "Esta campera de estética urbana está equipada con funciones superiores como la tecnología windCELL y un acabado repelente al agua que te protege de las inclemencias del tiempo. A ellas se suman la tecnología de absorción de la humedad dryCELL y las inserciones de malla en el antebrazo para que te sientas siempre fresco",
+      img: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1536,h_1536/global/538221/01/mod01/fnd/ARG/fmt/png",
+      url: "https://ar.puma.com/campera-deportiva-para-hombre-swxp-538221-01.html?_sgm_campaign=scn_a3e162ac02000&_sgm_source=136594&_sgm_action=click",
       time: "6 Days",
       like: "4/5",
-      by: "Micael Le",
-      btn: "Read More"
+      by: "SWxP",
+      btn: "Leer mas"
     },
     {
-      title: "Hello Kitty and Adidas",
-      text: "The world of Sanrio is vast and replete with many an iconic character. Few among the family, though, rival the immense influence of Hello Kitty, who’s played mascot for everything from Pringles merchandise to sneaker collaborations.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/hello-kitty-adidas-superstar-GW7168-2.jpg?w=540&h=380&crop=1",
-      url: "https://sneakernews.com/2022/09/08/hello-kitty-adidas-originals-gw7166-gw7167-gw7168/",
+      title: "Leggings para mujer Classics ",
+      text: "Tus fieles leggings se han renovado y llegan ahora en esta versión Classics. Incluyen inserciones con bloques de color que crean líneas favorecedoras y detalles de estilo en un color de contraste. Son un modelo esencial.",
+      img: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1536,h_1536/global/538190/01/mod01/fnd/ARG/fmt/png",
+      url: "https://ar.puma.com/leggings-para-mujer-classics-block-538190-01.html?_sgm_campaign=scn_a3e162ac02000&_sgm_source=136529&_sgm_action=click&color=127",
       time: "5 Days",
       like: "4/5",
-      by: "Micael Le",
-      btn: "Read More"
+      by: "Block",
+      btn: "Leer mas"
     },
     {
-      title: "Air Force 1 Low Expands",
-      text: "The nighttime aesthetic seen here is applied to the tumbled black leather panels of the upper and perforated mesh construction of the tongue while Royal trim and forefoot Swooshes provide additional intrigue to the darkened palette.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-air-force-1-low-worldwide-black-royal-fb1840-001-lead.jpg?w=540&h=380&crop=1",
-      url: "https://sneakernews.com/2022/09/08/nike-air-force-1-low-worldwide-black-royal-fb1840-001/",
+      title: "Body para mujer Classics",
+      text: "Olvídate de las incomodidades, este body es lo que necesitas. Este modelo está confeccionado con un cuello medio y con un tejido acanalado favorecedor que te brinda el ajuste perfecto. Incluye prácticos botones a presión en la entrepierna para que sea más fácil ponérselo y sacárselo.",
+      img: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1536,h_1536/global/539003/01/mod01/fnd/ARG/fmt/png",
+      url: "https://ar.puma.com/body-para-mujer-classics-539003-01.html?_sgm_campaign=scn_a3e162ac02000&_sgm_source=136663&_sgm_action=click",
       time: "5 Days",
       like: "4/5",
-      by: "Micael Le",
-      btn: "Read More"
+      by: "Classics",
+      btn: "Leer mas"
     },
   ],
 };
