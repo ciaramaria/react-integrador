@@ -7,11 +7,11 @@ const App = () => {
     <>
     <Navbar/>
     <Cart/>
-    <main className="flex flex-col gap-16 relative bg-indigo-200		">
+    <main className="flex flex-col gap-16 relative bg-zinc-200 text-white		">
       <Hero heroapi={heroapi}/>
       <Sales endpoint={popularsales} ifExists/>
-      <Sales endpoint={topratesales}/>
       <Stories story={story}/>
+      <Sales endpoint={topratesales}/>
     </main>
     <Footer footerAPI={footerAPI} />
     </>

@@ -22,7 +22,7 @@ const Footer = () => {
 
 const styles = {
   footer: {
-    backgroundColor: '#f2f2f2',
+    backgroundColor: 'black',
     padding: '20px',
     textAlign: 'center',
   },
@@ -32,6 +32,7 @@ const styles = {
   },
   text: {
     marginBottom: '10px',
+    color: 'white',
   },
   linkButton: {
     backgroundColor: 'transparent',

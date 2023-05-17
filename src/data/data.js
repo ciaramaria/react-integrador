@@ -1,4 +1,4 @@
-import heroimg from "../assets/hero.png";
+import heroimg from "../assets/banner.jpg";
 
 
 import hightlightimg from "../assets/hightlightimg.png";
@@ -42,8 +42,8 @@ import youtube from "../assets/youtube.png";
 import messenger from "../assets/messenger.svg";
 
 const heroapi = {
-  title: "Compra las nuevas pumas de Usain Bolt",
-  subtitle: "Runga 2.0 Sneakers",
+  title: "PUMBA",
+  subtitle: "A que no te atreves?",
   img: heroimg,
   btntext: "Mas productos",
 
@@ -61,7 +61,7 @@ const popularsales = {
   items: [
     {
       id: "0p0x1",
-      title: "Pumba fresh",
+      title: "Pumba fresh now",
       text: "MEN Running Shoes",
       rating: "4.9",
       btn: "Buy Now",
@@ -118,7 +118,7 @@ const topratesales = {
   items: [
     {
       id: "0M0x1",
-      title: "Nike Air Low Premium",
+      title: "Pumba Air Force Green",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -129,7 +129,7 @@ const topratesales = {
     },
     {
       id: "0M0x2",
-      title: "Nike Air Force Green",
+      title: "Pumba Air Low Premium",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -140,7 +140,7 @@ const topratesales = {
     },
     {
       id: "0M0x3",
-      title: "Nike Addapt BB Rose",
+      title: "Pumba Addoptam BB ",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -162,7 +162,7 @@ const topratesales = {
     },
     {
       id: "0M0x5",
-      title: "Nike Adapt BB Pro",
+      title: "Pumba Adapt BB Pro",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -173,7 +173,7 @@ const topratesales = {
     },
     {
       id: "0M0x6",
-      title: "Air Jordan PR3",
+      title: "Air Pulguita Rodriguez PR3",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -195,7 +195,7 @@ const topratesales = {
     },
     {
       id: "0M0x8",
-      title: "Nike Jordan Air Max",
+      title: "Voyage Nitro 2.0",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -206,7 +206,7 @@ const topratesales = {
     },
     {
       id: "0M0x9",
-      title: "Nike Old Max-x",
+      title: "Pumba Old Max-x",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -217,7 +217,7 @@ const topratesales = {
     },
     {
       id: "0M0x10",
-      title: "Nike Lime Jordan 11",
+      title: "Future ultimate 11",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -228,7 +228,7 @@ const topratesales = {
     },
     {
       id: "0M0x11",
-      title: "Nike Air Black Max",
+      title: "Ultra play Black Max",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -239,7 +239,7 @@ const topratesales = {
     },
     {
       id: "0M0x12",
-      title: "Nike Zoom Max",
+      title: "Pumba Zoom Max",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -317,7 +317,7 @@ const story = {
       },
     {
       title: "Campera deportiva para hombre",
-      text: "Esta campera de estética urbana está equipada con funciones superiores como la tecnología windCELL y un acabado repelente al agua que te protege de las inclemencias del tiempo. A ellas se suman la tecnología de absorción de la humedad dryCELL y las inserciones de malla en el antebrazo para que te sientas siempre fresco",
+      text: "Esta campera de estética urbana está equipada con funciones superiores como la tecnología windCELL y un acabado repelente al agua que te protege de las inclemencias del tiempo. A ellas se suman la tecnología de absorción de la humedad dryCELL y las inserciones de malla en el antebrazo para que te sientas siempre fresco.",
       img: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1536,h_1536/global/538221/01/mod01/fnd/ARG/fmt/png",
       url: "https://ar.puma.com/campera-deportiva-para-hombre-swxp-538221-01.html?_sgm_campaign=scn_a3e162ac02000&_sgm_source=136594&_sgm_action=click",
       time: "6 Days",
