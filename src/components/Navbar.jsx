@@ -5,12 +5,14 @@ import {
 } from "@heroicons/react/24/outline";
 import logo from "../assets/logo.png";
 import { selectTotalQTY, setOpenCart } from "../app/CartSlice.js";
-import Input from "./Input";
+
 
 const Navbar = () => {
   const [navState, setNavState] = useState(false);
   const dispatch = useDispatch();
   const totalQTY = useSelector(selectTotalQTY);
+
+  
 
   const onCartToggle = () => {
     dispatch(
@@ -45,12 +47,12 @@ const Navbar = () => {
           <div className="flex items-center">
             <img src={logo} alt="logo/img" className={`w-14 ${navState}`} />
           </div>
-              <Input/>
               
           <ul className="flex items-center justify-center gap-3  ">
             <li className="flex items-center ">
-              
-              
+            {/* <Input/> */}
+      <div>
+      </div>
             </li>
             
             <li className="grid items-center ">

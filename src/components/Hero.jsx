@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Input from './Input';
+import { useSelector } from 'react-redux';
 
 
 const Hero = ({ heroapi: {title, subtitle, btntext, img} }) => {
-  
+
+  const [value, setValue] = useState('');
+
+  const listOfCategories = useSelector(
+    state => state.cart.cartItems)
+  console.log(listOfCategories)
+
   return (
     <>
     <div className='relative h-auto w-auto flex flex-col '>
@@ -10,15 +18,21 @@ const Hero = ({ heroapi: {title, subtitle, btntext, img} }) => {
             <div className='grid items-center justify-items-center mt-10 md:mt-24'>
             <h1 className='text-3xl lg:text-5xl md:text-4xl sm:text-3xl xsm:text-2xl font-extrabold filter drop-shadow-sm text-slate-950 text-center '>{title}</h1>
             <h1 className='text-2xl lg:text-5xl md:text-4xl sm:text-3xl xsm:text-2xl font-extrabold filter drop-shadow-sm text-slate-900 text-center '>{subtitle}</h1>
-                <button className='button-theme bg-black shadow-black-100	rounded-lg my-5 '>{btntext}</button>
-            </div>
+                
            
+                <button className='button-theme bg-black shadow-black-100	rounded-lg my-5 '>{btntext}  </button>
+                <Input/>
+                
+            </div>
             <div className='flex items-center '>
+
                 <img 
                 src={img} 
                 alt="hero-img/img" 
                 className='w-auto h-[20vh] lg:h-[55vh] md:h-[40vh] sm:h-[15vh] xsm:h-[10vh] ' />
+                
             </div>
+            
         </div>
     </div>
     </>

@@ -2,7 +2,6 @@ import React from 'react';
 
 const Footer = () => {
   const scrollToTop = () => {
-    // Código para desplazarse hacia arriba de la página
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -10,9 +9,9 @@ const Footer = () => {
     <footer style={styles.footer}>
       <div style={styles.container}>
         <p style={styles.text}>
-          © 2023 Mi Sitio Web. Todos los derechos reservados.{' '}
+          © 2023 Ciaramaria. Todos los derechos reservados.{' '}
           <button style={styles.linkButton} onClick={scrollToTop}>
-            Ir hacia arriba
+            Ir inicio
           </button>
         </p>
       </div>

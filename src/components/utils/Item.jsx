@@ -33,13 +33,12 @@ const Item = ({
   return (
     <>
       <div
-        className={`relative bg-gradient-to-b ${color} ${shadow} ${
-          ifExists ? "justify-items-start" : "justify-items-center "
-        }  transition-all duration-700 ease-in-out w-120 hover:scale-105 py-36 px-5 mt-16 `}
+        className={`relative bg-gradient-to-b ${color} ${shadow} "justify-items-start" : "justify-items-center "
+        }  transition-all duration-700 ease-in-out w-120 hover:scale-105 h-96 w-64 `}
       >
 
       {/* este */}
-        <div className="grid items-center justify-items-center  ">
+        <div className="grid items-center justify-items-center mt-10 ">
           <h1 className="text-slate-200 text-xl lg:text-lg md:text-base font-medium filter drop-shadow ">
             {title}
           </h1>
@@ -81,11 +80,11 @@ const Item = ({
           </div>
         </div>
 
-        <div className="flex items-center justify-center  h-3	 w-50  ">
+        <div className="flex items-center justify-center  h-20	 w-50  mt-16 object-cover">
           <img
             src={img}
             alt={`img/item-img/${id}`}
-            className={`max-w-xs	 h-56		 object-cover rounded-tl-lg rounded-tr-lg mt-20 drop-shadow-xl `}
+            className={`max-w-xs object-cover  mt-20 drop-shadow-xl  w-64`}
           />
         </div>
       </div>

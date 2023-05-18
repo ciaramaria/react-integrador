@@ -1,16 +1,5 @@
 import heroimg from "../assets/banner.jpg";
 
-
-import hightlightimg from "../assets/hightlightimg.png";
-
-import sneakershoe from "../assets/sneaker.png";
-
-
-// import clip from "../assets/video/clip.mp4";
-// import vcover1 from "../assets/video/vcover1.png";
-// import vcover2 from "../assets/video/vcover2.png";
-// import vcover3 from "../assets/video/vcover3.png";
-
 import psale1 from "../assets/zapatillas-pumba-rojas.png";
 
 import psale2 from "../assets/zapatillas-pumba-grises.png";
@@ -35,25 +24,13 @@ import product11 from "../assets/product11.png";
 import product12 from "../assets/product12.png";
 
 
-import facebook from "../assets/facebook.png";
-import instagram from "../assets/instagram.png";
-import twitter from "../assets/twitter.png";
-import youtube from "../assets/youtube.png";
-import messenger from "../assets/messenger.svg";
-
 const heroapi = {
   title: "PUMBA",
   subtitle: "A que no te atreves?",
   img: heroimg,
   btntext: "Mas productos",
 
-  sociallinks: [
-    { icon: facebook },
-    { icon: messenger },
-    { icon: instagram },
-    { icon: twitter },
-    { icon: youtube },
-  ],
+
 };
 
 const popularsales = {
@@ -64,9 +41,9 @@ const popularsales = {
       title: "Pumba fresh now",
       text: "MEN Running Shoes",
       rating: "4.9",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: psale2,
-      price: "200",
+      price: "20500",
       color: "from-blue-600 to-blue-500",
       shadow: "shadow-lg shadow-blue-500",
     },
@@ -75,9 +52,9 @@ const popularsales = {
       title: "Pumba Air Premium",
       text: "MEN Running Shoes",
       rating: "4.5",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: psale1,
-      price: "200",
+      price: "30000",
       color: "from-red-500 to-rose-500",
       shadow: "shadow-lg shadow-rose-500",
     },
@@ -86,32 +63,16 @@ const popularsales = {
       title: "Pumba Multi Smart Shoe ",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: psale3,
-      price: "200",
+      price: "52000",
       color: "from-violet-500 to-indigo-500",
       shadow: "shadow-lg shadow-violet-500",
     },
   ],
 };
 
-const highlight = {
-  heading: "HIGHLIGHTS",
-  title: "NIKE AIR WITH LIMITLESS CHOICES",
-  text: "Our Purpose is to move the world forward. We take action by building community, protecting our planet and increasing access to sport.",
-  btn: "Explore More",
-  url: "https://despeluchados.com/products/zapatillas-casa-pumba",
-  img: hightlightimg,
-};
 
-const sneaker = {
-  heading: "FEATURED",
-  title: "NIKE SNEAKERS AIR LANCING SHOES",
-  text: "The radiance lives on Nike Sneakers Air Lancing Shoes, the basket ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.",
-  btn: "Explore More",
-  url: "https://sneakernews.com/2022/03/21/nike-lebron-2-retro-white-midnight-navy-varsity-crimson-dr0826-100/",
-  img: sneakershoe,
-};
 
 const topratesales = {
   title: "Mejores zapas",
@@ -121,9 +82,9 @@ const topratesales = {
       title: "Pumba Air Force Green",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product7,
-      price: "150",
+      price: "15000",
       color: "from-sky-600 to-indigo-600",
       shadow: "shadow-lg shadow-blue-500",
     },
@@ -132,9 +93,9 @@ const topratesales = {
       title: "Pumba Air Low Premium",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product2,
-      price: "150",
+      price: "25000",
       color: "from-green-500 to-emerald-500",
       shadow: "shadow-lg shadow-green-500",
     },
@@ -143,9 +104,9 @@ const topratesales = {
       title: "Pumba Addoptam BB ",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product3,
-      price: "150",
+      price: "17500",
       color: "from-red-500 to-rose-500",
       shadow: "shadow-lg shadow-rose-500",
     },
@@ -154,9 +115,9 @@ const topratesales = {
       title: "Pumba Martine Rose",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product4,
-      price: "150",
+      price: "13000",
       color: "from-orange-500 to-amber-500",
       shadow: "shadow-lg shadow-orange-500",
     },
@@ -165,9 +126,9 @@ const topratesales = {
       title: "Pumba Adapt BB Pro",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product5,
-      price: "150",
+      price: "14500",
       color: "from-gray-900 to-yellow-500",
       shadow: "shadow-lg shadow-yellow-500",
     },
@@ -176,9 +137,9 @@ const topratesales = {
       title: "Air Pulguita Rodriguez PR3",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product6,
-      price: "150",
+      price: "24500",
       color: "from-blue-500 to-cyan-500",
       shadow: "shadow-lg shadow-cyan-500",
     },
@@ -187,9 +148,9 @@ const topratesales = {
       title: "Pumba Smart Shoe 2.0",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product1,
-      price: "150",
+      price: "17000",
       color: "from-yellow-500 to-yellow-500",
       shadow: "shadow-lg shadow-yellow-500",
     },
@@ -198,9 +159,9 @@ const topratesales = {
       title: "Voyage Nitro 2.0",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product9,
-      price: "150",
+      price: "20000",
       color: "from-[#936550] to-orange-900",
       shadow: "shadow-lg shadow-orange-800",
     },
@@ -209,9 +170,9 @@ const topratesales = {
       title: "Pumba Old Max-x",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product10,
-      price: "150",
+      price: "24000",
       color: "from-indigo-700 to-indigo-700",
       shadow: "shadow-lg shadow-indigo-500",
     },
@@ -220,9 +181,9 @@ const topratesales = {
       title: "Future ultimate 11",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product12,
-      price: "150",
+      price: "13500",
       color: "from-green-600 to-lime-500",
       shadow: "shadow-lg shadow-lime-500",
     },
@@ -231,9 +192,9 @@ const topratesales = {
       title: "Ultra play Black Max",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product11,
-      price: "150",
+      price: "27000",
       color: "from-slate-900 to-black",
       shadow: "shadow-lg shadow-black",
     },
@@ -242,9 +203,9 @@ const topratesales = {
       title: "Pumba Zoom Max",
       text: "MEN Running Shoes",
       rating: "5+",
-      btn: "Buy Now",
+      btn: "Comprar",
       img: product8,
-      price: "150",
+      price: "35000",
       color: "from-blue-900 to-blue-500",
       shadow: "shadow-lg shadow-blue-500",
     },
@@ -380,4 +341,4 @@ const footerAPI = {
 };
 
 
-export { heroapi, footerAPI, story, sneaker, highlight, topratesales, popularsales };
+export { heroapi, footerAPI, story, topratesales, popularsales };
